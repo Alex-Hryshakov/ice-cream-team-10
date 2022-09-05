@@ -1,0 +1,48 @@
+<section>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="../images//ice_cream_phone1x1.jpg 1x, ../images//ice_cream_phone1x2.jpg 2x" media="(max-width:767px)"/>
+              <source srcset="../images//ice_cream_tablet1x1.jpg 1x, ../images//ice_cream_tablet1x2.jpg 2x" media="(max-width:1199px)"/>
+              <source srcset="../images//ice_cream_desktop1x1.jpg 1x, ../images//ice_cream_desktop1x2.jpg 2x" media="(min-width:1200px)"/>
+              <img src="./slider-jpg/ice_cream_desktop1x1.jpg" width="1013" height="422" alt="ice_cream"/>
+            </picture>
+            <img src="../images/ice_cream_desktop1x1.jpg" alt="">
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="../images//ice_cream_phone2x1.jpg 1x, ../images//ice_cream_phone2x2.jpg 2x" media="(max-width:767px)"/>
+              <source srcset="../images//ice_cream_tablet2x1.jpg 1x, ../images//ice_cream_tablet2x2.jpg 2x" media="(max-width:1199px)"/>
+              <source srcset="../images//ice_cream_desktop2x1.jpg 1x, ../images//ice_cream_desktop2x2.jpg 2x" media="(min-width:1200px)"/>
+              <img src="./slider-jpg/ice_cream_desktop2x1.jpg" width="1013" height="422" alt="ice_cream"/>
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="../images//ice_cream_phone3x1.jpg 1x, ../images//ice_cream_phone3x2.jpg 2x" media="(max-width:767px)"/>
+              <source srcset="../images//ice_cream_tablet3x1.jpg 1x, ../images//ice_cream_tablet3x2.jpg 2x" media="(max-width:1199px)"/>
+              <source srcset="../images//ice_cream_desktop3x1.jpg 1x, ../images//ice_cream_desktop3x2.jpg 2x" media="(min-width:1200px)"/>
+              <img src="./slider-jpg/ice_cream_desktop3x1.jpg" width="1013" height="422" alt="ice_cream"/>
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source srcset="../images//ice_cream_phone4x1.jpg 1x, ../images//ice_cream_phone4x2.jpg 2x" media="(max-width:767px)"/>
+              <source srcset="../images//ice_cream_tablet4x1.jpg 1x, ../images//ice_cream_tablet4x2.jpg 2x" media="(max-width:1199px)"/>
+              <source srcset="../images//ice_cream_desktop4x1.jpg 1x, ../images//ice_cream_desktop4x2.jpg 2x" media="(min-width:1200px)"/>
+              <img src="./slider-jpg/ice_cream_desktop4x1.jpg" width="1013" height="422" alt="ice_cream"/>
+            </picture></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+      });
+    </script>
